@@ -36,7 +36,6 @@
     border-bottom:1px #000 solid;
 }
 .input1>input,.input2>input{
-    width: 100%;
     height: 50%;
     border: 0;
     outline: none;
@@ -50,7 +49,7 @@
     display: inline-block;
     width: 17%;
     height: 100%;
-    font-size: 30px;
+    font-size: 25px;
     color: #ff0924;
     padding-left: 5%;
     border-left: 1px #000 solid;

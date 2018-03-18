@@ -10,23 +10,23 @@
 <div class="container">
     <div class="header">
         <div>
-            <img src="img/arrow-left.png" alt="">
+            <img src="img/arrow-left.png" alt="" onclick="back()">
         </div>
         <span>丽淘生活馆-品质至上</span>
     </div>
     <div class="section">
         <div class="input1">
-            <input type="text" placeholder="请输入手机号">
+            <input type="text" id="inputPhone" placeholder="请输入手机号" onblur="submit()" maxlength="13">
         </div>
         <div class="input2">
             <input type="text" placeholder="请输入验证码">
             <div>
-                <span>发送验证码</span>
+                <span class="code">发送验证码</span>
             </div>
         </div>
     </div>
     <div class="submit">
-        <button>立即登录</button>
+        <button id="btn">立即登录</button>
     </div>
 </div>
 <script src="js/login.js"></script>
